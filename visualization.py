@@ -19,7 +19,7 @@ while cell_am>input_wh or cell_am<1:
 # Canvas dimensions and setup
 WIDTH, HEIGHT = input_wh, input_wh
 canvas = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Random S")
+pygame.display.set_caption("Random Walk Visualization")
 
 # Colors, potentially allow user to choose these in the future
 white = (255, 255, 255)
